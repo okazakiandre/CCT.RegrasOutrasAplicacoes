@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCT.RegrasOutrasAplicacoes.App", "CCT.RegrasOutrasAplicacoes.App\CCT.RegrasOutrasAplicacoes.App.csproj", "{1DE8F607-C876-4933-A086-D6B220F496D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCT.RegrasOutrasAplicacoes.UnitTest", "CCT.RegrasOutrasAplicacoes.UnitTest\CCT.RegrasOutrasAplicacoes.UnitTest.csproj", "{85155996-44CC-4998-8E2B-6F2DCF478FDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DE8F607-C876-4933-A086-D6B220F496D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE8F607-C876-4933-A086-D6B220F496D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE8F607-C876-4933-A086-D6B220F496D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE8F607-C876-4933-A086-D6B220F496D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85155996-44CC-4998-8E2B-6F2DCF478FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85155996-44CC-4998-8E2B-6F2DCF478FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85155996-44CC-4998-8E2B-6F2DCF478FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85155996-44CC-4998-8E2B-6F2DCF478FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7F0E41D-6A71-4E7E-AEB6-30405DEDB6B1}
+	EndGlobalSection
+EndGlobal

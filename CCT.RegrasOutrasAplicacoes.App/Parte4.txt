@@ -1,0 +1,37 @@
+CCT - Nunca teste regras de negócio de outras aplicações
+=========================================================
+
+- Como esse conhecimento te ajuda?
+  - evita "falsos positivos" testes de unidade
+  - muito comum em ambientes SOA ou micro serviços
+  - melhora a arquitetura do seu ambiente
+
+- Mostrar código
+
+- Por que é um problema?
+  - o serviço expõe uma regra de negócio
+    - o que significa o campo SituacaoCadastral do cliente?
+  - o teste não garante a regra
+    - se o serviço muda, seu teste precisa mudar junto
+  - isso também vale para as suas classes internas
+
+- Como resolver
+  - lembre do "S" do SOLID
+  - quem é responsável pela regra?
+    - o dono da regra testa
+    - o consumidor só consome
+    - você testa o string.IsNullOrEmpty?
+  - evite retornar domínios "soltos"
+    - retorne resultados afirmativos
+    - campos EstaPendente, FoiConfirmado
+    - método ObterClienteConfirmado
+    - endpoint /cliente/{cpf}/confirmado
+  - nunca devo retornar domínios?
+    - não é um erro exatamente, depende do contexto
+    - você atualiza suas documentações?
+    - você garante a compatibilidade?
+
+- Conclusão
+  - só fazer testes não garante a qualidade
+  - muitos problemas de teste vem da arquitetura
+  - todo mundo faz, mas "você não é todo mundo"

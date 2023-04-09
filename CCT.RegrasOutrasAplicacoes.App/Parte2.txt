@@ -1,0 +1,17 @@
+CCT - Nunca teste regras de negócio de outras aplicações
+=========================================================
+
+- Como esse conhecimento te ajuda?
+  - evita "falsos positivos" testes de unidade
+  - muito comum em ambientes SOA ou micro serviços
+  - melhora a arquitetura do seu ambiente
+
+- Mostrar código
+
+- Por que é um problema?
+  - o serviço expõe uma regra de negócio
+    - o que significa o campo SituacaoCadastral do cliente?
+  - o teste não garante a regra
+    - se o serviço muda, seu teste precisa mudar junto
+  - isso também vale para as suas classes internas
+
